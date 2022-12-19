@@ -1,0 +1,69 @@
+.mr-auto, .mx-auto {
+  margin-right: 10px;
+}
+
+
+
+.row-cols-2 > * {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.search-form {
+  height: 20px;
+}
+
+#col h1 {
+  font-weight: normal;
+}
+
+.col h1 {
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0,0,0,.9);
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a {
+  color: #212529;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #333;
+  background-color: #eef2f7;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+}
+
+.btn-primary.drop {
+  color: #333;
+  background-color: #fff;
+  border-color: #007bff;
+}
+
+.container.prof, .container-lg, .container-md, .container-sm, .container-xl, .prof {
+  background-color: #333;
+}
+
+p#user {
+  color: #fff;
+  /*font-size: 14pt;*/
+}
+
+.h2, h2 {
+  color: #fff;
+}
+
+span#user {
+  color: #fff;
+  font-size: 16pt;
+}
+
